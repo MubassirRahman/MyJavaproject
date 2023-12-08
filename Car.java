@@ -42,6 +42,6 @@ public class Car extends vehicle {
     }
     public String run(){
         
-       return "Running Bike"+super.run();
+       return "Running Bike";
     }
 }
