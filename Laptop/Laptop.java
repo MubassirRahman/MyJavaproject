@@ -27,12 +27,37 @@ public class Laptop {
         this.opticalDrive = opticalDrive;
         this.keyboards = keyboards;
     }
+    
     @Override
     public String toString() {
         return "Laptop [screen=" + screen + ", processor=" + processor + ", ram=" + ram + ", harddisk=" + harddisk
                 + ", graphicscard=" + graphicscard + ", opticalDrive=" + opticalDrive + ", keyboards=" + keyboards
                 + "]";
     }
+    public int getScreen() {
+        return screen;
+    }
+    public Processor getProcessor() {
+        return processor;
+    }
+    public String getRam() {
+        return ram;
+    }
+    public String getHarddisk() {
+        return harddisk;
+    }
+    public Graphicscard getGraphicscard() {
+        return graphicscard;
+    }
+    public String getOpticalDrive() {
+        return opticalDrive;
+    }
+    public String getKeyboards() {
+        return keyboards;
+    }
+
+   
+    
     
     
 
