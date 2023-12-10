@@ -1,6 +1,6 @@
 package Interface;
 
-public class Samsung implements Phone{
+public class Samsung implements Phone,Android{
 
     @Override
     public String processor() {
@@ -10,6 +10,11 @@ public class Samsung implements Phone{
     @Override
     public int spaceingb() {
         return 256;
+    }
+
+    @Override
+    public String Airdrop() {
+        return "Copy and paste in Android";
     }
     
 

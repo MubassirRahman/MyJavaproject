@@ -13,6 +13,14 @@ public class Sample {
          g=p2.spaceingb();
         System.out.println(s);
         System.out.println(g);
+
+        //Multiple Inheritance is achived by interface in java.
+        Iphone phone=new Iphone();
+        System.out.println(phone.Airdrop());
+
+        Samsung sa1=new Samsung();
+        System.out.println(sa1.Airdrop());
+        
     }
     
 }

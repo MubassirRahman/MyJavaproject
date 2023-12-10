@@ -1,6 +1,6 @@
 package Interface;
 
-public class Iphone implements Phone {
+public class Iphone implements Phone,IOS {
 
     @Override
     public String processor() {
@@ -10,6 +10,11 @@ public class Iphone implements Phone {
     @Override
     public int spaceingb() {
         return 256;
+    }
+
+    @Override
+    public String Airdrop() {
+       return "Copy and paste in Iphone";
     }
 
     
